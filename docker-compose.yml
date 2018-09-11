@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+
+  redis:
+    container_name: core_redis
+    image: myhealthcache 
+    build: 
+      context: .
+      dockerfile: .docker/redis.dockerfile
+    ports:
+      - "6379"
+    networks:
+      - myhealthnet
+    # networks:
+    #   vnext_net:
+    #     ipv4_address: 170.68.0.4
+
+  core:
+    container_name: core_web
+    image: myhealthcore  
+    build: 
+      context: .
+      dockerfile: .docker/aspcore.dockerfile
+    ports:
+     - "80:80"
+    networks:
+      - myhealthnet
+    # networks:
+    #   vnext_net:
+    #     ipv4_address: 170.68.0.6
+    # depends_on:
+    #   - redis
+      
+networks:
+    myhealthnet:
+      external:
+        name: myhealthnet
+      # driver: bridge
+      # ipam:
+      #   config:
+      #     - subnet: 170.68.0.0/16
+      #       gateway: 170.68.0.1
+
+    

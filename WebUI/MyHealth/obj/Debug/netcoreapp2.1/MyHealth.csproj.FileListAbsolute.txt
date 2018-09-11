@@ -1,0 +1,11 @@
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\bin\Debug\netcoreapp2.1\MyHealth.deps.json
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\bin\Debug\netcoreapp2.1\MyHealth.runtimeconfig.json
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\bin\Debug\netcoreapp2.1\MyHealth.runtimeconfig.dev.json
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\bin\Debug\netcoreapp2.1\MyHealth.dll
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\bin\Debug\netcoreapp2.1\MyHealth.pdb
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\obj\Debug\netcoreapp2.1\MyHealth.csprojAssemblyReference.cache
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\obj\Debug\netcoreapp2.1\MyHealth.csproj.CoreCompileInputs.cache
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\obj\Debug\netcoreapp2.1\MyHealth.AssemblyInfoInputs.cache
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\obj\Debug\netcoreapp2.1\MyHealth.AssemblyInfo.cs
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\obj\Debug\netcoreapp2.1\MyHealth.dll
+C:\VNSVN\Innovate_Finals\WebUI\MyHealth\obj\Debug\netcoreapp2.1\MyHealth.pdb

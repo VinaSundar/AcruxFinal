@@ -1,0 +1,16 @@
+﻿@model ApplicationErrorViewModel
+
+@{
+    Layout = "~/Views/Shared/_SignedOutLayout.cshtml";
+    ViewData["Title"] = "Application Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An application error occurred while processing your request.</h2>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <p>
+        <strong>Error message:</strong> <code>@Model.Message</code>
+    </p>
+}
