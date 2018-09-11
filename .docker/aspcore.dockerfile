@@ -5,7 +5,7 @@ EXPOSE 80
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
-COPY ./WebUI/MyHealth/WebUI/MyHealth.csproj ./
+COPY ./WebUI/MyHealth/MyHealth.csproj ./
 RUN dotnet restore 
 # Vnext.Web/Vnext.Web.csproj
 COPY ./WebUI/MyHealth/ ./
